@@ -7,7 +7,8 @@ public class Int {
         this.value = value;
 
     }
-    public Int(){
+
+    public Int() {
 
     }
 
@@ -21,7 +22,7 @@ public class Int {
     }
 
 
-    //Метод считает сумму 2-х элементов типа Int.
+    //Метод считает сумму 2-х элffементов типа Int.
     public Int plus(Int v) {
 
         Int res = new Int();
@@ -52,7 +53,8 @@ public class Int {
         return res;
 
     }
-     // Возвращает факториал
+
+    // Возвращает факториал
     public Int faktorial(int val) {
         Int res = new Int(1);
         for (int i = 1; i <= val; i++) {
@@ -66,17 +68,19 @@ public class Int {
         System.out.println(this.value);
 
     }
-    public Int pow(int val){
+
+    public Int pow(int val) {
         Int pow = new Int();
         Int res = new Int(1);
-        for (int i = 0; i < val; i++){
+        for (int i = 0; i < val; i++) {
             pow.value = res.value * value;
             res.value = pow.value;
 
         }
         return pow;
     }
-    public Int ost(Int v){
+
+    public Int ost(Int v) {
         Int res = new Int();
         res.value = value % v.value;
         return res;
