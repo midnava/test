@@ -1,6 +1,7 @@
 package HomeWork6;
 
 import java.util.ArrayList;
+
 /**
 
  */
@@ -90,7 +91,7 @@ public class TicketWindow {
                 ticket.print();
                 break;
             } else {
-                System.out.println("Места в вагонах " + typeOfCoach + " закончились");
+                System.out.println("Места вd вагонах " + typeOfCoach + " закончились");
                 break;
             }
         }
