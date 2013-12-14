@@ -1,0 +1,14 @@
+<TESTS>
+
+    <TEST name="Test Login">
+        <STAGES>
+
+        </STAGES>
+    </TEST>
+
+    <TEST name="Test Order" login="admin" password="password">
+
+    </TEST>
+
+
+</TESTS>

@@ -1,0 +1,64 @@
+<TESTS>
+
+    <TEST name="Test Login">
+        <STAGES>
+            <STAGE name="Login Stage" timeout="20">
+                <REQUESTS>
+                    <item>
+                        login
+                    </item>
+                </REQUESTS>
+                <RESPONSES>
+                    <item>
+                        success
+                    </item>
+                </RESPONSES>
+            </STAGE>
+
+            <STAGE name="Logout Stage" wait="5" timeout="20">
+                <REQUESTS>
+                    <item>
+                        logout
+                    </item>
+                </REQUESTS>
+                <RESPONSES>
+                    <item>
+                        success
+                    </item>
+                </RESPONSES>
+            </STAGE>
+        </STAGES>
+    </TEST>
+
+    <TEST name="Test Order" login="admin" password="password">
+        <STAGES>
+            <STAGE name="Buy bonds Stage" timeout="20">
+                <REQUESTS>
+                    <item>
+                        buy 100 bonds
+                    </item>
+                </REQUESTS>
+                <RESPONSES>
+                    <item>
+                        success
+                    </item>
+                </RESPONSES>
+            </STAGE>
+
+            <STAGE name="Sell bonds Stage" timeout="20">
+                <REQUESTS>
+                    <item>
+                        sell 100 bonds
+                    </item>
+                </REQUESTS>
+                <RESPONSES>
+                    <item>
+                        success
+                    </item>
+                </RESPONSES>
+            </STAGE>
+        </STAGES>
+    </TEST>
+
+
+</TESTS>
