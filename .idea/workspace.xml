@@ -1,128 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10f13b84-215f-4b9b-bcdb-594e6b533d5c" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\HomeWork2\Task0.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\HomeWork2\Task1.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\HomeWork2\Task2.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\HomeWork2\Task3.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\HomeWork2\Task4.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\HomeWork2\Task5.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\HomeWork2\Task6.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\HomeWork2\Task7.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\HomeWork3\Task0.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\HomeWork3\Task1.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\HomeWork3\Task2.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\HomeWork3\Task3.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\HomeWork4\MyString\MainString.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\HomeWork4\MyString\MyString.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\HomeWork4\Task0\Int.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\HomeWork4\Task0\IntMain.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\HomeWork4\Task1\MainArr.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\HomeWork4\Task1\MyArr.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\HomeWork4\Task2\Calc.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\HomeWork5\Company.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\HomeWork5\Humans.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\HomeWork5\Main.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\HomeWork5\Manager.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\HomeWork5\Sellers.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\HomeWork5\Workers.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\HomeWork6\Main.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\HomeWork6\Menu.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\HomeWork6\Ticket.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\HomeWork6\TicketWindow.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\HomeWork6\TypeOfCoach.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson10\Task2\Color.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson10\Task2\Lights.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson10\Task2\MainTraffic.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson10\Task2\TrafficLight.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson11\Task1\Task1.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson11\Task2\Circle.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson11\Task2\Figurable.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson11\Task2\Figure.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson11\Task2\Main.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson11\Task2\Point.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson11\Task2\Rectangle.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson11\Task2\Square.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson11\Task2\SquareOfFigures.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson11\Task2\Triangle.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson11\Task3\MainCassa.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson12\Task1\FindException.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson12\Task1\Task1.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson12\Task2\Task1.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson12\Task2\Task2.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson12\Task2\Task3.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson12\Task2\Task4.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson12\Task2\Task5.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson12\Task2\Task6.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson3\Task1.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson3\Task2.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson3\Task3.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson3\Task4.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson3\Task5.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson3\Task6.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson3\Task7.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson3\Task8.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson4\Task1.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson4\Task2.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson4\Task3.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson4\Task4.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson4\Task5.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson4\Task6.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson4\Task7.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson4\Task8.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson5\Diablo.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson5\Task0.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson5\Task1.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson5\Task2.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson5\Task3.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson5\Task4.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson5\Task5.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson5\Task6.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson6\Task1.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson6\Task2.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson6\Task3.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson7\Task1\Car.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson7\Task1\Main.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson7\Task2\Int.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson7\Task2\MainInt.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson8\Task1.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson8\Task1\Task2.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson8\Task1\Task3.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson8\Task1\Task4.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson8\Task1\Task5.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson8\Task2\Princess.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson8\Task2\Task6.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson9\Task1\Circle.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson9\Task1\Figure.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson9\Task1\Main.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson9\Task1\Point.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson9\Task1\Rectangle.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson9\Task1\Square.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson9\Task1\SquareOfFigures.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\Lesson9\Task1\Triangle.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\TEST.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\homeWork1\Home1.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\homeWork1\Home2.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\homeWork1\Home3.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\homeWork1\Home4.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\homeWork1\Home5.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\homeWork1\Home6.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\homeWork1\Home7.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\homeWork1\Home8.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\lesson1\Task1.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\lesson1\Task2.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\lesson1\Task3.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\lesson2\Task1.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\lesson2\Task2.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\lesson2\Task3.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\lesson2\Task4.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\lesson2\Task5.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\LUX_PROJECT\test\src\lesson2\Task6.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="10f13b84-215f-4b9b-bcdb-594e6b533d5c" name="Default" comment="modify">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Base2.iml" afterPath="$PROJECT_DIR$/FixServiceTestTool.iml" />
     </list>
     <ignored path="Base2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -667,24 +547,28 @@
       <created>1379954140704</created>
       <updated>1379954140704</updated>
       <workItem from="1387006804130" duration="276000" />
-      <workItem from="1387007132969" duration="5000" />
+      <workItem from="1387007132969" duration="140000" />
     </task>
     <task id="LOCAL-00001" summary="modify">
       <created>1386497297600</created>
       <updated>1386497297600</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="modify">
+      <created>1387007181464</created>
+      <updated>1387007181464</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="281000" />
+    <option name="totallyTimeSpent" value="416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1036" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -692,16 +576,17 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39863715" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.318569" sideWeight="0.2659091" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32928178" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15535714" sideWeight="0.68176794" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15934066" sideWeight="0.68176794" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31823203" sideWeight="0.7340909" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -709,7 +594,6 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
