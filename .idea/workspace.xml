@@ -2,21 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10f13b84-215f-4b9b-bcdb-594e6b533d5c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Admin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/FixProtocolConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/FixProtocolConverterImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/ubs/fixserver/tool/convertor/FixProtocolConverterImplTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/FixProtocolConverterImpl.java" afterPath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/FixProtocolConverterImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/ubs/fixserver/tool/convertor/FixProtocolConverterImplTest.java" afterPath="$PROJECT_DIR$/test/com/ubs/fixserver/tool/convertor/FixProtocolConverterImplTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Base2.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387026242491" ignored="false" />
+    <file path="/Dummy.txt" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387031670996" ignored="false" />
     <file path="/fragment.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387030117889" ignored="false" />
     <file path="/NormalizedStringAdapterTest.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387026162506" ignored="false" />
     <file path="$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/marshaller/RootTestsXmlMarshallerImpl.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387026246051" ignored="false" />
     <file path="/StringToTagsMapConverter.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387026571666" ignored="false" />
     <file path="/FixProtocolConverterImpl.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387031608324" ignored="false" />
-    <file path="/FixProtocolConverterImplTest.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387030268860" ignored="false" />
+    <file path="/FixProtocolConverterImplTest.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387031890374" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,27 +80,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FixProtocolConverterImpl.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FixProtocolConverterImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/FixProtocolConverterImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="49" selection-start="913" selection-end="913" vertical-scroll-proportion="1.1154855">
+            <state line="10" column="57" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#480#496#0" expanded="true" />
-                <element signature="e#578#586#0" expanded="true" />
-                <element signature="e#856#872#0" expanded="true" />
+                <element signature="e#481#497#0" expanded="true" />
+                <element signature="e#579#587#0" expanded="true" />
+                <element signature="e#857#873#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FixProtocolConverterImplTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="FixProtocolConverterImplTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/ubs/fixserver/tool/convertor/FixProtocolConverterImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="29" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.0">
+            <state line="57" column="0" selection-start="1585" selection-end="1585" vertical-scroll-proportion="0.7322835">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#561#577#0" expanded="true" />
+                <element signature="e#604#620#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -409,69 +407,7 @@
       <recent name="D:\LUX_PROJECT\test\test\com\ubs\fixservice\tool\xml\marshaller" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FixProtocolConverterImplTest.tesCheckTag">
-    <configuration default="false" name="RootTestsXmlMarshallerImplTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ubs.fixserver.tool.xml.marshaller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="FixServerTestTool" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="PACKAGE_NAME" value="com.ubs.fixserver.tool.xml.marshaller" />
-      <option name="MAIN_CLASS_NAME" value="com.ubs.fixserver.tool.xml.marshaller.RootTestsXmlMarshallerImplTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="NormalizedStringAdapterTest.testMarshal" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ubs.fixserver.tool.xml.adapter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="FixServerTestTool" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ubs.fixserver.tool.xml.adapter" />
-      <option name="MAIN_CLASS_NAME" value="com.ubs.fixserver.tool.xml.adapter.NormalizedStringAdapterTest" />
-      <option name="METHOD_NAME" value="testMarshal" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.FixProtocolConverterImplTest">
     <configuration default="false" name="NormalizedStringAdapterTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -542,6 +478,62 @@
       <option name="MAIN_CLASS_NAME" value="com.ubs.fixserver.tool.convertor.FixProtocolConverterImplTest" />
       <option name="METHOD_NAME" value="tesCheckTag" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FixProtocolConverterImplTest.tesCheckTag_failed" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.ubs.fixserver.tool.convertor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="FixServerTestTool" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ubs.fixserver.tool.convertor" />
+      <option name="MAIN_CLASS_NAME" value="com.ubs.fixserver.tool.convertor.FixProtocolConverterImplTest" />
+      <option name="METHOD_NAME" value="tesCheckTag_failed" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FixProtocolConverterImplTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.ubs.fixserver.tool.convertor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="FixServerTestTool" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ubs.fixserver.tool.convertor" />
+      <option name="MAIN_CLASS_NAME" value="com.ubs.fixserver.tool.convertor.FixProtocolConverterImplTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -755,19 +747,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.RootTestsXmlMarshallerImplTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.NormalizedStringAdapterTest.testMarshal" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.NormalizedStringAdapterTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FixProtocolConverterImplTest.testConvertStringToTags" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FixProtocolConverterImplTest.tesCheckTag" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.NormalizedStringAdapterTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FixProtocolConverterImplTest.testConvertStringToTags" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FixProtocolConverterImplTest.tesCheckTag" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FixProtocolConverterImplTest.tesCheckTag_failed" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FixProtocolConverterImplTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FixProtocolConverterImplTest.tesCheckTag" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FixProtocolConverterImplTest.testConvertStringToTags" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.NormalizedStringAdapterTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.NormalizedStringAdapterTest.testMarshal" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.RootTestsXmlMarshallerImplTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FixProtocolConverterImplTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FixProtocolConverterImplTest.tesCheckTag_failed" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FixProtocolConverterImplTest.tesCheckTag" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FixProtocolConverterImplTest.testConvertStringToTags" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.NormalizedStringAdapterTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -840,7 +832,11 @@
       <created>1387026245691</created>
       <updated>1387026245691</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="modify">
+      <created>1387031674099</created>
+      <updated>1387031674099</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -1063,24 +1059,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/ubs/fixserver/tool/convertor/FixProtocolConverterImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/FixProtocolConverterImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="29" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.0">
+        <state line="10" column="57" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#561#577#0" expanded="true" />
+            <element signature="e#481#497#0" expanded="true" />
+            <element signature="e#579#587#0" expanded="true" />
+            <element signature="e#857#873#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/FixProtocolConverterImpl.java">
+    <entry file="file://$PROJECT_DIR$/test/com/ubs/fixserver/tool/convertor/FixProtocolConverterImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="49" selection-start="913" selection-end="913" vertical-scroll-proportion="1.1154855">
+        <state line="57" column="0" selection-start="1585" selection-end="1585" vertical-scroll-proportion="0.7322835">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#480#496#0" expanded="true" />
-            <element signature="e#578#586#0" expanded="true" />
-            <element signature="e#856#872#0" expanded="true" />
+            <element signature="e#604#620#0" expanded="true" />
           </folding>
         </state>
       </provider>

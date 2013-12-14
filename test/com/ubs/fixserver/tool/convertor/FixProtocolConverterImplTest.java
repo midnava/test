@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import static junit.framework.Assert.assertEquals;
+import static junit.framework.Assert.fail;
 
 /**
  * @author : Novobranchenko Oleksandr
@@ -39,5 +40,24 @@ public class FixProtocolConverterImplTest {
         converter.checkTag("45=_sa@#@");
         converter.checkTag("445=_+323fdfs!@#%^&**");
 
+    }
+
+    @Test
+    public void tesCheckTag_failed() throws Exception {
+        // assert return value
+        checkFailedValue("45dd=fff");
+        checkFailedValue("E#$d45dd=ewe");
+        checkFailedValue("45===fff");
+        checkFailedValue("dd==55");
+
+    }
+
+    private void checkFailedValue(String str) {
+        try {
+            converter.checkTag(str);
+            fail();
+        } catch (RuntimeException e) {
+
+        }
     }
 }
