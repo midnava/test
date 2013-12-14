@@ -7,6 +7,9 @@ import javax.xml.bind.annotation.XmlElementWrapper;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * @author : Novobranchenko Oleksandr
+ */
 public class Test {
 
     @XmlAttribute(name = "name", required = true)

@@ -11,7 +11,9 @@ import java.util.List;
 
 import static junit.framework.Assert.assertEquals;
 
-
+/**
+ * @author : Novobranchenko Oleksandr
+ */
 public class RootTestsXmlMarshallerImplTest {
 
     @org.junit.Test

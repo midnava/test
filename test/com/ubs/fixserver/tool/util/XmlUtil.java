@@ -5,6 +5,9 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
+/**
+ * @author : Novobranchenko Oleksandr
+ */
 public class XmlUtil {
 
     public static String readXMLFromResource(String name) throws IOException {

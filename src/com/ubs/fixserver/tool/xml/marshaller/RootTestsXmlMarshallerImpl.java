@@ -9,6 +9,9 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.Unmarshaller;
 import java.io.StringReader;
 
+/**
+ * @author : Novobranchenko Oleksandr
+ */
 public class RootTestsXmlMarshallerImpl implements ModelXMLMarshaller<TestPlan> {
     private static final Logger logger = Logger.getLogger(RootTestsXmlMarshallerImpl.class);
 

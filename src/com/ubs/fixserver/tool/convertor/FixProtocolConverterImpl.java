@@ -3,6 +3,9 @@ package com.ubs.fixserver.tool.convertor;
 import java.util.*;
 import java.util.regex.Pattern;
 
+/**
+ * @author : Novobranchenko Oleksandr
+ */
 public class FixProtocolConverterImpl implements FixProtocolConverter {
 
     private static final String TAG_SPLITTER = ";";

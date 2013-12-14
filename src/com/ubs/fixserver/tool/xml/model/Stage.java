@@ -9,6 +9,9 @@ import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 import java.util.List;
 
+/**
+ * @author : Novobranchenko Oleksandr
+ */
 public class Stage {
     @XmlAttribute(name = "name", required = true)
     private String name;

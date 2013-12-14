@@ -2,6 +2,9 @@ package com.ubs.fixserver.tool.xml.adapter;
 
 import javax.xml.bind.annotation.adapters.XmlAdapter;
 
+/**
+ * @author : Novobranchenko Oleksandr
+ */
 public class NormalizedStringAdapter extends XmlAdapter<String, String> {
 
     @Override
