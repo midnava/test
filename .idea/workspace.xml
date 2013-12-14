@@ -2,18 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10f13b84-215f-4b9b-bcdb-594e6b533d5c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/ubs/fixserver/tool/xml/adapter/NormalizedStringAdapterTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FixServerTestTool.iml" afterPath="$PROJECT_DIR$/FixServerTestTool.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/marshaller/RootTestsXmlMarshallerImpl.java" afterPath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/marshaller/RootTestsXmlMarshallerImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/ubs/fixserver/tool/xml/marshaller/RootTestsXmlMarshallerImplTest.java" afterPath="$PROJECT_DIR$/test/com/ubs/fixserver/tool/xml/marshaller/RootTestsXmlMarshallerImplTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Admin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/FixProtocolConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/FixProtocolConverterImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/ubs/fixserver/tool/convertor/FixProtocolConverterImplTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\git_lux\test\src\com\ubs\fixserver\tool\xml\model\Root.java" afterPath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/model/TestPlan.java" />
     </list>
     <ignored path="Base2.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387026112375" ignored="false" />
-    <file path="/fragment.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387025987905" ignored="false" />
+    <file path="/Dummy.txt" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387026242491" ignored="false" />
+    <file path="/fragment.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387030117889" ignored="false" />
     <file path="/NormalizedStringAdapterTest.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387026162506" ignored="false" />
+    <file path="$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/marshaller/RootTestsXmlMarshallerImpl.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387026246051" ignored="false" />
+    <file path="/StringToTagsMapConverter.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387026571666" ignored="false" />
+    <file path="/FixProtocolConverterImpl.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387031608324" ignored="false" />
+    <file path="/FixProtocolConverterImplTest.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387030268860" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,23 +82,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestPlan.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/model/TestPlan.java">
+      <file leaf-file-name="FixProtocolConverterImpl.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/FixProtocolConverterImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="23" selection-start="217" selection-end="217" vertical-scroll-proportion="-0.37434095">
+            <state line="25" column="49" selection-start="913" selection-end="913" vertical-scroll-proportion="1.1154855">
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#480#496#0" expanded="true" />
+                <element signature="e#578#586#0" expanded="true" />
+                <element signature="e#856#872#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/model/Test.java">
+      <file leaf-file-name="FixProtocolConverterImplTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/ubs/fixserver/tool/convertor/FixProtocolConverterImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="39" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
+            <state line="36" column="29" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#561#577#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,15 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/com/ubs/fixserver/tool/utils/XmlUtils.java" />
-        <option value="$PROJECT_DIR$/test/com/ubs/fixserver/tool/util/XmlUtils.java" />
-        <option value="$PROJECT_DIR$/test/com/ubs/fixserver/tool/util/XmlUtil.java" />
-        <option value="$PROJECT_DIR$/test/com/ubs/fixserver/tool/xml/marshaller/invalideXML.xml" />
-        <option value="$PROJECT_DIR$/resources/log4j.xml" />
-        <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/marshaller/RootTestsXmlMarshallerImpl.java" />
-        <option value="$PROJECT_DIR$/test/com/ubs/fixserver/tool/xml/marshaller/emptyStages.xml" />
-        <option value="$PROJECT_DIR$/test/com/ubs/fixserver/tool/xml/marshaller/testExample.xml" />
-        <option value="$PROJECT_DIR$/test/com/ubs/fixserver/tool/xml/marshaller/RootTestsXmlMarshallerImplTest.java" />
         <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/adapter/dd.java" />
         <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/model/StageModel.java" />
         <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/adapter/MyNormalizedStringAdapter.java" />
@@ -135,6 +133,15 @@
         <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/model/Root.java" />
         <option value="$PROJECT_DIR$/test/com/ubs/fixserver/tool/xml/adapter/NormalizedStringAdapterTest.java" />
         <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/model/TestPlan.java" />
+        <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/StringToTagsMapConvertor.java" />
+        <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/StringToTagsMapConverter.java" />
+        <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/StringToTagMapConverter.java" />
+        <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/StringToFixTagsMapConverter.java" />
+        <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/StringToFixPairTagsMapConverter.java" />
+        <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/StringToFixPairTagsConverter.java" />
+        <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/FixProtocolConverter.java" />
+        <option value="$PROJECT_DIR$/test/com/ubs/fixserver/tool/convertor/FixProtocolConverterImplTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/FixProtocolConverterImpl.java" />
       </list>
     </option>
   </component>
@@ -169,7 +176,7 @@
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -255,6 +262,32 @@
               <option name="myItemId" value="xml" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adapter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FixServiceTestTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -291,14 +324,6 @@
               <option name="myItemId" value="tool" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -318,25 +343,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FixServiceTestTool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tool" />
+              <option name="myItemId" value="convertor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -382,12 +389,13 @@
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.ubs.fixserver.tool.convertor" />
       <recent name="com.ubs.fixserver.tool.xml.adapter" />
       <recent name="com.ubs.fixservice.tool.xml.marshaller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\LUX_PROJECT\test\test\com\ubs\fixserver\tool\xml\marshaller" />
@@ -401,43 +409,7 @@
       <recent name="D:\LUX_PROJECT\test\test\com\ubs\fixservice\tool\xml\marshaller" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NormalizedStringAdapterTest">
-    <configuration default="false" name="RootTestsXmlMarshallerImplTest.testConvertXMLToModel" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ubs.fixserver.tool.xml.marshaller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="FixServerTestTool" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="PACKAGE_NAME" value="com.ubs.fixserver.tool.xml.marshaller" />
-      <option name="MAIN_CLASS_NAME" value="com.ubs.fixserver.tool.xml.marshaller.RootTestsXmlMarshallerImplTest" />
-      <option name="METHOD_NAME" value="testConvertXMLToModel" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Cover" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Cover" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.FixProtocolConverterImplTest.tesCheckTag">
     <configuration default="false" name="RootTestsXmlMarshallerImplTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -469,34 +441,6 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="RootTestsXmlMarshallerImplTest.testConvertXMLToModel_emptyStages" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ubs.fixserver.tool.xml.marshaller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="FixServerTestTool" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ubs.fixserver.tool.xml.marshaller" />
-      <option name="MAIN_CLASS_NAME" value="com.ubs.fixserver.tool.xml.marshaller.RootTestsXmlMarshallerImplTest" />
-      <option name="METHOD_NAME" value="testConvertXMLToModel_emptyStages" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -542,6 +486,62 @@
       <option name="MAIN_CLASS_NAME" value="com.ubs.fixserver.tool.xml.adapter.NormalizedStringAdapterTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FixProtocolConverterImplTest.testConvertStringToTags" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.ubs.fixserver.tool.convertor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="FixServerTestTool" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ubs.fixserver.tool.convertor" />
+      <option name="MAIN_CLASS_NAME" value="com.ubs.fixserver.tool.convertor.FixProtocolConverterImplTest" />
+      <option name="METHOD_NAME" value="testConvertStringToTags" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FixProtocolConverterImplTest.tesCheckTag" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.ubs.fixserver.tool.convertor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="FixServerTestTool" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ubs.fixserver.tool.convertor" />
+      <option name="MAIN_CLASS_NAME" value="com.ubs.fixserver.tool.convertor.FixProtocolConverterImplTest" />
+      <option name="METHOD_NAME" value="tesCheckTag" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -755,19 +755,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.RootTestsXmlMarshallerImplTest.testConvertXMLToModel" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.RootTestsXmlMarshallerImplTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.RootTestsXmlMarshallerImplTest.testConvertXMLToModel_emptyStages" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.NormalizedStringAdapterTest.testMarshal" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.NormalizedStringAdapterTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.RootTestsXmlMarshallerImplTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.NormalizedStringAdapterTest.testMarshal" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.NormalizedStringAdapterTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FixProtocolConverterImplTest.testConvertStringToTags" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FixProtocolConverterImplTest.tesCheckTag" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.NormalizedStringAdapterTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.NormalizedStringAdapterTest.testMarshal" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RootTestsXmlMarshallerImplTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.RootTestsXmlMarshallerImplTest.testConvertXMLToModel" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.RootTestsXmlMarshallerImplTest.testConvertXMLToModel_emptyStages" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FixProtocolConverterImplTest.tesCheckTag" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FixProtocolConverterImplTest.testConvertStringToTags" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.NormalizedStringAdapterTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.NormalizedStringAdapterTest.testMarshal" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.RootTestsXmlMarshallerImplTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -836,7 +836,11 @@
       <created>1387025921241</created>
       <updated>1387025921241</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="modify">
+      <created>1387026245691</created>
+      <updated>1387026245691</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -865,8 +869,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21969697" sideWeight="0.67058825" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3159664" sideWeight="0.7340909" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21969697" sideWeight="0.68403363" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3159664" sideWeight="0.7340909" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -951,39 +955,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/com/ubs/fixserver/tool/xml/marshaller/testExample.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="25" selection-start="965" selection-end="965" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/model/Stage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="25" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/ubs/fixserver/tool/xml/marshaller/testExample.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="20" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/marshaller/ModelXMLMarshaller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="111" selection-end="111" vertical-scroll-proportion="0.15070923" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/log4j.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="34" selection-start="499" selection-end="499" vertical-scroll-proportion="0.41463414" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/ubs/fixserver/tool/xml/marshaller/invalidXML.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="9" selection-start="19" selection-end="19" vertical-scroll-proportion="0.05923345">
@@ -995,7 +966,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="40" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.65156794">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1012,35 +983,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/ubs/fixserver/tool/xml/marshaller/testExample.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="23" selection-start="325" selection-end="325" vertical-scroll-proportion="0.3554007">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/model/Stage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="0" selection-start="594" selection-end="594" vertical-scroll-proportion="0.59753954">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/ubs/fixserver/tool/xml/marshaller/RootTestsXmlMarshallerImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="37" selection-start="819" selection-end="819" vertical-scroll-proportion="0.7469244">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2017#2024#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/ubs/fixserver/tool/xml/adapter/NormalizedStringAdapterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="23" selection-start="144" selection-end="144" vertical-scroll-proportion="0.26771653">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1054,20 +999,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/model/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/model/TestPlan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="39" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
+        <state line="8" column="23" selection-start="217" selection-end="217" vertical-scroll-proportion="0.23901582">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/model/TestPlan.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/model/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="23" selection-start="217" selection-end="217" vertical-scroll-proportion="-0.37434095">
+        <state line="20" column="39" selection-start="534" selection-end="534" vertical-scroll-proportion="0.59753954">
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/ubs/fixserver/tool/xml/marshaller/testExample.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="23" selection-start="325" selection-end="325" vertical-scroll-proportion="0.35852373">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/ubs/fixserver/tool/xml/adapter/NormalizedStringAdapterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="23" selection-start="144" selection-end="144" vertical-scroll-proportion="0.18065694">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/FixProtocolConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="51" selection-start="158" selection-end="158" vertical-scroll-proportion="0.17926186">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/ubs/fixserver/tool/xml/marshaller/RootTestsXmlMarshallerImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="37" selection-start="823" selection-end="823" vertical-scroll-proportion="0.029876977">
+          <folding>
+            <element signature="e#2017#2024#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.6.0_29/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3517" column="30" selection-start="133106" selection-end="133106" vertical-scroll-proportion="0.3321617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.6.0_29/src.zip!/java/util/IllegalFormatException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="4" selection-start="684" selection-end="684" vertical-scroll-proportion="0.6430446">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/ubs/fixserver/tool/convertor/FixProtocolConverterImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="29" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#561#577#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/FixProtocolConverterImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="49" selection-start="913" selection-end="913" vertical-scroll-proportion="1.1154855">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#480#496#0" expanded="true" />
+            <element signature="e#578#586#0" expanded="true" />
+            <element signature="e#856#872#0" expanded="true" />
           </folding>
         </state>
       </provider>
