@@ -32,7 +32,7 @@ public class FixProtocolConverterImpl implements FixProtocolConverter {
         return result;
     }
 
-    private String[] splitTag(String str) {
+    String[] splitTag(String str) {
         checkTag(str);
         int position = str.indexOf(VALUE_SPLITTER);
         String[] result = new String[2];
