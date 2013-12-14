@@ -7,6 +7,7 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -41,6 +42,26 @@ public class Stage {
         this.wait = wait;
         this.requests = requests;
         this.responses = responses;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public long getTimeout() {
+        return timeout;
+    }
+
+    public long getWait() {
+        return wait;
+    }
+
+    public List<String> getRequests() {
+        return Collections.unmodifiableList(requests);
+    }
+
+    public List<String> getResponses() {
+        return Collections.unmodifiableList(responses);
     }
 
     @Override

@@ -3,6 +3,7 @@ package com.ubs.fixserver.tool.xml.model;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -22,7 +23,7 @@ public class TestPlan {
     }
 
     public List<Test> getTests() {
-        return tests;
+        return Collections.unmodifiableList(tests);
     }
 
     @Override

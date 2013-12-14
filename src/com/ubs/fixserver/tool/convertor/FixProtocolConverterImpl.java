@@ -10,7 +10,7 @@ public class FixProtocolConverterImpl implements FixProtocolConverter {
 
     private static final String TAG_SPLITTER = ";";
     private static final String VALUE_SPLITTER = "=";
-    private Pattern tagPattern = Pattern.compile("^((\\d*)=(\\S*))$");
+    private Pattern tagPattern = Pattern.compile("((\\d*)=(\\S*))");
 
     @Override
     public Map<String, String> convertStringToTags(String value) {
