@@ -39,16 +39,15 @@ public class FixProtocolConverterImplTest {
         converter.checkTag("35=fffdsd");
         converter.checkTag("45=_sa@#@");
         converter.checkTag("445=_+323fdfs!@#%^&**");
-
+        converter.checkTag("45===fff");
     }
 
     @Test
     public void tesCheckTag_invalidTag() throws Exception {
         // assert return value
+        checkFailedValue("45dd=");
         checkFailedValue("45dd=fff");
         checkFailedValue("E#$d45dd=ewe");
-        checkFailedValue("45===fff");
-        checkFailedValue("dd==55");
         checkFailedValue("dd=5 5 ");
 
     }

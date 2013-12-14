@@ -26,10 +26,18 @@ public class FixProtocolConverterImpl implements FixProtocolConverter {
     Map<String, String> createTags(List<String> pairTags) {
         Map<String, String> result = new LinkedHashMap<String, String>();
         for (String str : pairTags) {
-            checkTag(str);
-            String[] pair = str.split(VALUE_SPLITTER);
+            String[] pair = splitTag(str);
             result.put(pair[0].trim(), pair[1].trim());
         }
+        return result;
+    }
+
+    private String[] splitTag(String str) {
+        checkTag(str);
+        int position = str.indexOf(VALUE_SPLITTER);
+        String[] result = new String[2];
+        result[0] = str.substring(0, position);
+        result[1] = str.substring(position + 1, str.length());
         return result;
     }
 
