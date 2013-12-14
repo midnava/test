@@ -43,7 +43,7 @@ public class FixProtocolConverterImplTest {
     }
 
     @Test
-    public void tesCheckTag_failed() throws Exception {
+    public void tesCheckTag_invalidTag() throws Exception {
         // assert return value
         checkFailedValue("45dd=fff");
         checkFailedValue("E#$d45dd=ewe");
@@ -53,10 +53,10 @@ public class FixProtocolConverterImplTest {
 
     }
 
-    private void checkFailedValue(String str) {
+    private void checkFailedValue(String tags) {
         try {
-            converter.checkTag(str);
-            fail(String.format("Correct value [%s], must be invalid", str));
+            converter.checkTag(tags);
+            fail(String.format("Correct value [%s], must be invalid", tags));
         } catch (RuntimeException e) {
 
         }

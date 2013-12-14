@@ -33,9 +33,9 @@ public class FixProtocolConverterImpl implements FixProtocolConverter {
         return result;
     }
 
-    void checkTag(String str) {
-        if (!tagPattern.matcher(str).matches()) {
-            throw new IllegalArgumentException(String.format("Failed to split str [%s] with pattern %s", str, tagPattern.pattern()));
+    void checkTag(String tags) {
+        if (!tagPattern.matcher(tags).matches()) {
+            throw new IllegalArgumentException(String.format("Failed to split str [%s] with pattern %s", tags, tagPattern.pattern()));
         }
     }
 
