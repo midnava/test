@@ -9,7 +9,7 @@ import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 import java.util.List;
 
-public class StageModel {
+public class Stage {
     @XmlAttribute(name = "name", required = true)
     private String name;
 
@@ -29,10 +29,10 @@ public class StageModel {
     @XmlJavaTypeAdapter(NormalizedStringAdapter.class)
     private List<String> responses;
 
-    public StageModel() {
+    public Stage() {
     }
 
-    public StageModel(String name, long timeout, long wait, List<String> requests, List<String> responses) {
+    public Stage(String name, long timeout, long wait, List<String> requests, List<String> responses) {
         this.name = name;
         this.timeout = timeout;
         this.wait = wait;
@@ -45,7 +45,7 @@ public class StageModel {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        StageModel that = (StageModel) o;
+        Stage that = (Stage) o;
 
         if (timeout != that.timeout) return false;
         if (wait != that.wait) return false;
@@ -68,7 +68,7 @@ public class StageModel {
 
     @Override
     public String toString() {
-        return "StageModel{" +
+        return "Stage{" +
                 "name='" + name + '\'' +
                 ", timeout=" + timeout +
                 ", wait=" + wait +

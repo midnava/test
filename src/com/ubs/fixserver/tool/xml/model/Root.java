@@ -6,19 +6,19 @@ import javax.xml.bind.annotation.XmlRootElement;
 import java.util.List;
 
 @XmlRootElement(name = "TESTS")
-public class RootTestModel {
+public class Root {
 
     @XmlElement(name = "TEST", required = false)
-    private List<TestModel> tests;
+    private List<Test> tests;
 
-    public RootTestModel() {
+    public Root() {
     }
 
-    public RootTestModel(List<TestModel> tests) {
+    public Root(List<Test> tests) {
         this.tests = tests;
     }
 
-    public List<TestModel> getTests() {
+    public List<Test> getTests() {
         return tests;
     }
 
@@ -27,7 +27,7 @@ public class RootTestModel {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        RootTestModel that = (RootTestModel) o;
+        Root that = (Root) o;
 
         if (tests != null ? !tests.equals(that.tests) : that.tests != null) return false;
 
@@ -41,7 +41,7 @@ public class RootTestModel {
 
     @Override
     public String toString() {
-        return "RootTestModel{" +
+        return "Root{" +
                 "tests=" + tests +
                 '}';
     }

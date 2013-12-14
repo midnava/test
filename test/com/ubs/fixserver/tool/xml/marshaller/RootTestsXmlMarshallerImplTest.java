@@ -1,10 +1,9 @@
 package com.ubs.fixserver.tool.xml.marshaller;
 
 import com.ubs.fixserver.tool.util.XmlUtil;
-import com.ubs.fixserver.tool.xml.model.RootTestModel;
-import com.ubs.fixserver.tool.xml.model.StageModel;
-import com.ubs.fixserver.tool.xml.model.TestModel;
-import org.junit.Test;
+import com.ubs.fixserver.tool.xml.model.Root;
+import com.ubs.fixserver.tool.xml.model.Stage;
+import com.ubs.fixserver.tool.xml.model.Test;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -15,30 +14,30 @@ import static junit.framework.Assert.assertEquals;
 
 public class RootTestsXmlMarshallerImplTest {
 
-    @Test
+    @org.junit.Test
     public void testConvertXMLToModel() throws Exception {
         // initialize variable inputs
         //TEST 1
-        StageModel stage11 = new StageModel("Login Stage", 20, 0,
+        Stage stage11 = new Stage("Login Stage", 20, 0,
                 Arrays.asList("login"),
                 Arrays.asList("success"));
-        StageModel stage12 = new StageModel("Logout Stage", 20, 5,
+        Stage stage12 = new Stage("Logout Stage", 20, 5,
                 Arrays.asList("logout"),
                 Arrays.asList("success"));
-        TestModel testModel = new TestModel("Test Login", 0, 0, Arrays.asList(stage11, stage12));
+        Test test = new Test("Test Login", 0, 0, Arrays.asList(stage11, stage12));
 
-        StageModel stage21 = new StageModel("Buy bonds Stage", 20, 0,
+        Stage stage21 = new Stage("Buy bonds Stage", 20, 0,
                 Arrays.asList("buy 100 bonds"),
                 Arrays.asList("success"));
         //TEST 2
-        StageModel stage22 = new StageModel("Sell bonds Stage", 20, 0,
+        Stage stage22 = new Stage("Sell bonds Stage", 20, 0,
                 Arrays.asList("sell 100 bonds"),
                 Arrays.asList("success"));
-        TestModel testMode2 = new TestModel("Test Order", 0, 0, Arrays.asList(stage21, stage22));
+        Test testMode2 = new Test("Test Order", 0, 0, Arrays.asList(stage21, stage22));
 
-        List<TestModel> testModels = Arrays.asList(testModel, testMode2);
+        List<Test> tests = Arrays.asList(test, testMode2);
 
-        RootTestModel expectedRootTestModel = new RootTestModel(testModels);
+        Root expectedRoot = new Root(tests);
 
         String xml = XmlUtil.readXMLFromResource("testExample.xml");
 
@@ -46,20 +45,20 @@ public class RootTestsXmlMarshallerImplTest {
         RootTestsXmlMarshallerImpl marshaller = new RootTestsXmlMarshallerImpl();
 
         // invoke method on class to test
-        RootTestModel returnValue = marshaller.convertFromXML(xml);
+        Root returnValue = marshaller.convertFromXML(xml);
 
         // assert return value
-        assertEquals(expectedRootTestModel, returnValue);
+        assertEquals(expectedRoot, returnValue);
     }
 
-    @Test
+    @org.junit.Test
     public void testConvertXMLToModel_emptyStages() throws Exception {
         // initialize variable inputs
-        TestModel testModel = new TestModel("Test Login", 0, 0, Collections.<StageModel>emptyList());
-        TestModel testMode2 = new TestModel("Test Order", 0, 0, null);
-        List<TestModel> testModels = Arrays.asList(testModel, testMode2);
+        Test test = new Test("Test Login", 0, 0, Collections.<Stage>emptyList());
+        Test testMode2 = new Test("Test Order", 0, 0, null);
+        List<Test> tests = Arrays.asList(test, testMode2);
 
-        RootTestModel expectedRootTestModel = new RootTestModel(testModels);
+        Root expectedRoot = new Root(tests);
 
         String xml = XmlUtil.readXMLFromResource("emptyStages.xml");
 
@@ -67,13 +66,13 @@ public class RootTestsXmlMarshallerImplTest {
         RootTestsXmlMarshallerImpl marshaller = new RootTestsXmlMarshallerImpl();
 
         // invoke method on class to test
-        RootTestModel returnValue = marshaller.convertFromXML(xml);
+        Root returnValue = marshaller.convertFromXML(xml);
 
         // assert return value
-        assertEquals(expectedRootTestModel, returnValue);
+        assertEquals(expectedRoot, returnValue);
     }
 
-    @Test(expected = IllegalArgumentException.class)
+    @org.junit.Test(expected = IllegalArgumentException.class)
     public void testConvertXMLToModel_InvalidXML() throws Exception {
         // initialize variable inputs
 
@@ -83,7 +82,7 @@ public class RootTestsXmlMarshallerImplTest {
         RootTestsXmlMarshallerImpl marshaller = new RootTestsXmlMarshallerImpl();
 
         // invoke method on class to test
-        RootTestModel returnValue = marshaller.convertFromXML(xml);
+        Root returnValue = marshaller.convertFromXML(xml);
 
         // assert return value
     }

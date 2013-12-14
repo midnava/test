@@ -7,7 +7,7 @@ import javax.xml.bind.annotation.XmlElementWrapper;
 import java.util.Collections;
 import java.util.List;
 
-public class TestModel {
+public class Test {
 
     @XmlAttribute(name = "name", required = true)
     private String name;
@@ -20,12 +20,12 @@ public class TestModel {
 
     @XmlElementWrapper(name = "STAGES")
     @XmlElement(name = "STAGE")
-    private List<StageModel> stages;
+    private List<Stage> stages;
 
-    public TestModel() {
+    public Test() {
     }
 
-    public TestModel(String name, long timeout, long wait, List<StageModel> stages) {
+    public Test(String name, long timeout, long wait, List<Stage> stages) {
         this.name = name;
         this.timeout = timeout;
         this.wait = wait;
@@ -44,7 +44,7 @@ public class TestModel {
         return wait;
     }
 
-    public List<StageModel> getStages() {
+    public List<Stage> getStages() {
         return Collections.unmodifiableList(stages);
     }
 
@@ -53,12 +53,12 @@ public class TestModel {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        TestModel testModel = (TestModel) o;
+        Test test = (Test) o;
 
-        if (timeout != testModel.timeout) return false;
-        if (wait != testModel.wait) return false;
-        if (name != null ? !name.equals(testModel.name) : testModel.name != null) return false;
-        if (stages != null ? !stages.equals(testModel.stages) : testModel.stages != null)
+        if (timeout != test.timeout) return false;
+        if (wait != test.wait) return false;
+        if (name != null ? !name.equals(test.name) : test.name != null) return false;
+        if (stages != null ? !stages.equals(test.stages) : test.stages != null)
             return false;
 
         return true;
@@ -75,7 +75,7 @@ public class TestModel {
 
     @Override
     public String toString() {
-        return "TestModel{" +
+        return "Test{" +
                 "name='" + name + '\'' +
                 ", timeout=" + timeout +
                 ", wait=" + wait +
