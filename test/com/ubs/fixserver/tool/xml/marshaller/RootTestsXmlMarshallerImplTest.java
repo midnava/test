@@ -1,9 +1,9 @@
 package com.ubs.fixserver.tool.xml.marshaller;
 
 import com.ubs.fixserver.tool.util.XmlUtil;
-import com.ubs.fixserver.tool.xml.model.Root;
 import com.ubs.fixserver.tool.xml.model.Stage;
 import com.ubs.fixserver.tool.xml.model.Test;
+import com.ubs.fixserver.tool.xml.model.TestPlan;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -37,7 +37,7 @@ public class RootTestsXmlMarshallerImplTest {
 
         List<Test> tests = Arrays.asList(test, testMode2);
 
-        Root expectedRoot = new Root(tests);
+        TestPlan expectedTestPlan = new TestPlan(tests);
 
         String xml = XmlUtil.readXMLFromResource("testExample.xml");
 
@@ -45,10 +45,10 @@ public class RootTestsXmlMarshallerImplTest {
         RootTestsXmlMarshallerImpl marshaller = new RootTestsXmlMarshallerImpl();
 
         // invoke method on class to test
-        Root returnValue = marshaller.convertFromXML(xml);
+        TestPlan returnValue = marshaller.convertFromXML(xml);
 
         // assert return value
-        assertEquals(expectedRoot, returnValue);
+        assertEquals(expectedTestPlan, returnValue);
     }
 
     @org.junit.Test
@@ -58,7 +58,7 @@ public class RootTestsXmlMarshallerImplTest {
         Test testMode2 = new Test("Test Order", 0, 0, null);
         List<Test> tests = Arrays.asList(test, testMode2);
 
-        Root expectedRoot = new Root(tests);
+        TestPlan expectedTestPlan = new TestPlan(tests);
 
         String xml = XmlUtil.readXMLFromResource("emptyStages.xml");
 
@@ -66,10 +66,10 @@ public class RootTestsXmlMarshallerImplTest {
         RootTestsXmlMarshallerImpl marshaller = new RootTestsXmlMarshallerImpl();
 
         // invoke method on class to test
-        Root returnValue = marshaller.convertFromXML(xml);
+        TestPlan returnValue = marshaller.convertFromXML(xml);
 
         // assert return value
-        assertEquals(expectedRoot, returnValue);
+        assertEquals(expectedTestPlan, returnValue);
     }
 
     @org.junit.Test(expected = IllegalArgumentException.class)
@@ -82,7 +82,7 @@ public class RootTestsXmlMarshallerImplTest {
         RootTestsXmlMarshallerImpl marshaller = new RootTestsXmlMarshallerImpl();
 
         // invoke method on class to test
-        Root returnValue = marshaller.convertFromXML(xml);
+        TestPlan returnValue = marshaller.convertFromXML(xml);
 
         // assert return value
     }
