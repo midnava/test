@@ -1,9 +1,12 @@
 package com.ubs.fixserver.tool.xml.model;
 
 
+import com.ubs.fixserver.tool.xml.adapter.NormalizedStringAdapter;
+
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlElementWrapper;
+import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 import java.util.List;
 
 public class StageModel {
@@ -18,10 +21,12 @@ public class StageModel {
 
     @XmlElementWrapper(name = "REQUESTS")
     @XmlElement(name = "item")
+    @XmlJavaTypeAdapter(NormalizedStringAdapter.class)
     private List<String> requests;
 
     @XmlElementWrapper(name = "RESPONSES")
     @XmlElement(name = "item")
+    @XmlJavaTypeAdapter(NormalizedStringAdapter.class)
     private List<String> responses;
 
     public StageModel() {

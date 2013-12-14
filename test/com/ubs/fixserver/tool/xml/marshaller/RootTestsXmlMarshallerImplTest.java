@@ -18,11 +18,24 @@ public class RootTestsXmlMarshallerImplTest {
     @Test
     public void testConvertXMLToModel() throws Exception {
         // initialize variable inputs
-        StageModel stage1 = new StageModel();
-        StageModel stage2 = new StageModel();
-        List<StageModel> stages = Arrays.asList(stage1, stage2);
-        TestModel testModel = new TestModel("Test Login", 0, 0, stages);
-        TestModel testMode2 = new TestModel("Test Order", 0, 0, stages);
+        //TEST 1
+        StageModel stage11 = new StageModel("Login Stage", 20, 0,
+                Arrays.asList("login"),
+                Arrays.asList("success"));
+        StageModel stage12 = new StageModel("Logout Stage", 20, 5,
+                Arrays.asList("logout"),
+                Arrays.asList("success"));
+        TestModel testModel = new TestModel("Test Login", 0, 0, Arrays.asList(stage11, stage12));
+
+        StageModel stage21 = new StageModel("Buy bonds Stage", 20, 0,
+                Arrays.asList("buy 100 bonds"),
+                Arrays.asList("success"));
+        //TEST 2
+        StageModel stage22 = new StageModel("Sell bonds Stage", 20, 0,
+                Arrays.asList("sell 100 bonds"),
+                Arrays.asList("success"));
+        TestModel testMode2 = new TestModel("Test Order", 0, 0, Arrays.asList(stage21, stage22));
+
         List<TestModel> testModels = Arrays.asList(testModel, testMode2);
 
         RootTestModel expectedRootTestModel = new RootTestModel(testModels);

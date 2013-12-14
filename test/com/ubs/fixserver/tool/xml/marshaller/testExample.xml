@@ -15,7 +15,7 @@
                 </RESPONSES>
             </STAGE>
 
-            <STAGE name="Logout Stage" wait="5" timeout="20">
+            <STAGE name="Logout Stage" timeout="20" wait="5">
                 <REQUESTS>
                     <item>
                         logout
