@@ -22,6 +22,7 @@ public class FixProtocolConverterImplTest {
         Map<String, String> expectedResult = new HashMap<String, String>();
         expectedResult.put("5", "rerer");
         expectedResult.put("342", "32esds");
+
         // initialize class to test
 
         // invoke method on class to test
