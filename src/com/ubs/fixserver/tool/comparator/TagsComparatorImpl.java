@@ -8,7 +8,7 @@ import java.util.Map;
 /**
  * @author : Novobranchenko Oleksandr
  */
-public class TagsComparatorImpl implements TagComparator {
+public class TagsComparatorImpl implements TagsComparator {
 
     private static final String ANY_VALUE = "%any%";
 
