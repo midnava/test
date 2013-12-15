@@ -23,6 +23,9 @@ public final class Stage {
     @XmlAttribute(name = "wait", required = false)
     private long wait;
 
+    @XmlAttribute(name = "skip", required = false)
+    private boolean skip;
+
     @XmlElementWrapper(name = "REQUESTS")
     @XmlElement(name = "item")
     @XmlJavaTypeAdapter(NormalizedStringAdapter.class)
@@ -36,10 +39,11 @@ public final class Stage {
     public Stage() {
     }
 
-    public Stage(String name, long timeout, long wait, List<String> requests, List<String> responses) {
+    public Stage(String name, long timeout, long wait, boolean skip, List<String> requests, List<String> responses) {
         this.name = name;
         this.timeout = timeout;
         this.wait = wait;
+        this.skip = skip;
         this.requests = requests;
         this.responses = responses;
     }
@@ -56,6 +60,10 @@ public final class Stage {
         return wait;
     }
 
+    public boolean isSkip() {
+        return skip;
+    }
+
     public List<String> getRequests() {
         return Collections.unmodifiableList(requests);
     }
@@ -69,13 +77,14 @@ public final class Stage {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        Stage that = (Stage) o;
+        Stage stage = (Stage) o;
 
-        if (timeout != that.timeout) return false;
-        if (wait != that.wait) return false;
-        if (name != null ? !name.equals(that.name) : that.name != null) return false;
-        if (requests != null ? !requests.equals(that.requests) : that.requests != null) return false;
-        if (responses != null ? !responses.equals(that.responses) : that.responses != null) return false;
+        if (skip != stage.skip) return false;
+        if (timeout != stage.timeout) return false;
+        if (wait != stage.wait) return false;
+        if (name != null ? !name.equals(stage.name) : stage.name != null) return false;
+        if (requests != null ? !requests.equals(stage.requests) : stage.requests != null) return false;
+        if (responses != null ? !responses.equals(stage.responses) : stage.responses != null) return false;
 
         return true;
     }
@@ -85,10 +94,12 @@ public final class Stage {
         int result = name != null ? name.hashCode() : 0;
         result = 31 * result + (int) (timeout ^ (timeout >>> 32));
         result = 31 * result + (int) (wait ^ (wait >>> 32));
+        result = 31 * result + (skip ? 1 : 0);
         result = 31 * result + (requests != null ? requests.hashCode() : 0);
         result = 31 * result + (responses != null ? responses.hashCode() : 0);
         return result;
     }
+
 
     @Override
     public String toString() {
@@ -96,6 +107,7 @@ public final class Stage {
                 "name='" + name + '\'' +
                 ", timeout=" + timeout +
                 ", wait=" + wait +
+                ", skip=" + skip +
                 ", requests=" + requests +
                 ", responses=" + responses +
                 '}';

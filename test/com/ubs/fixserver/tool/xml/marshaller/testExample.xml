@@ -1,8 +1,8 @@
 <TESTS>
 
-    <TEST name="Test Login">
+    <TEST name="Test Login" skip="false">
         <STAGES>
-            <STAGE name="Login Stage" timeout="20">
+            <STAGE name="Login Stage" timeout="20" skip="false">
                 <REQUESTS>
                     <item>
                         login
@@ -45,7 +45,7 @@
                 </RESPONSES>
             </STAGE>
 
-            <STAGE name="Sell bonds Stage" timeout="20">
+            <STAGE name="Sell bonds Stage" timeout="20" skip="true">
                 <REQUESTS>
                     <item>
                         sell 100 bonds

@@ -21,6 +21,9 @@ public final class Test {
     @XmlAttribute(name = "wait", required = false)
     private long wait;
 
+    @XmlAttribute(name = "skip", required = false)
+    private boolean skip;
+
     @XmlElementWrapper(name = "STAGES")
     @XmlElement(name = "STAGE")
     private List<Stage> stages;
@@ -28,10 +31,11 @@ public final class Test {
     public Test() {
     }
 
-    public Test(String name, long timeout, long wait, List<Stage> stages) {
+    public Test(String name, long timeout, long wait, boolean skip, List<Stage> stages) {
         this.name = name;
         this.timeout = timeout;
         this.wait = wait;
+        this.skip = skip;
         this.stages = stages;
     }
 
@@ -47,6 +51,10 @@ public final class Test {
         return wait;
     }
 
+    public boolean isSkip() {
+        return skip;
+    }
+
     public List<Stage> getStages() {
         return Collections.unmodifiableList(stages);
     }
@@ -58,11 +66,11 @@ public final class Test {
 
         Test test = (Test) o;
 
+        if (skip != test.skip) return false;
         if (timeout != test.timeout) return false;
         if (wait != test.wait) return false;
         if (name != null ? !name.equals(test.name) : test.name != null) return false;
-        if (stages != null ? !stages.equals(test.stages) : test.stages != null)
-            return false;
+        if (stages != null ? !stages.equals(test.stages) : test.stages != null) return false;
 
         return true;
     }
@@ -72,6 +80,7 @@ public final class Test {
         int result = name != null ? name.hashCode() : 0;
         result = 31 * result + (int) (timeout ^ (timeout >>> 32));
         result = 31 * result + (int) (wait ^ (wait >>> 32));
+        result = 31 * result + (skip ? 1 : 0);
         result = 31 * result + (stages != null ? stages.hashCode() : 0);
         return result;
     }
@@ -82,6 +91,7 @@ public final class Test {
                 "name='" + name + '\'' +
                 ", timeout=" + timeout +
                 ", wait=" + wait +
+                ", skip=" + skip +
                 ", stages=" + stages +
                 '}';
     }

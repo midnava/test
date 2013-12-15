@@ -20,22 +20,22 @@ public class RootTestsXmlMarshallerImplTest {
     public void testConvertXMLToModel() throws Exception {
         // initialize variable inputs
         //TEST 1
-        Stage stage11 = new Stage("Login Stage", 20, 0,
+        Stage stage11 = new Stage("Login Stage", 20, 0, false,
                 Arrays.asList("login"),
                 Arrays.asList("success"));
-        Stage stage12 = new Stage("Logout Stage", 20, 5,
+        Stage stage12 = new Stage("Logout Stage", 20, 5, false,
                 Arrays.asList("logout"),
                 Arrays.asList("success"));
-        Test test = new Test("Test Login", 0, 0, Arrays.asList(stage11, stage12));
+        Test test = new Test("Test Login", 0, 0, false, Arrays.asList(stage11, stage12));
 
-        Stage stage21 = new Stage("Buy bonds Stage", 20, 0,
+        Stage stage21 = new Stage("Buy bonds Stage", 20, 0, false,
                 Arrays.asList("buy 100 bonds"),
                 Arrays.asList("success"));
         //TEST 2
-        Stage stage22 = new Stage("Sell bonds Stage", 20, 0,
+        Stage stage22 = new Stage("Sell bonds Stage", 20, 0, true,
                 Arrays.asList("sell 100 bonds"),
                 Arrays.asList("success"));
-        Test testMode2 = new Test("Test Order", 0, 0, Arrays.asList(stage21, stage22));
+        Test testMode2 = new Test("Test Order", 0, 0, false, Arrays.asList(stage21, stage22));
 
         List<Test> tests = Arrays.asList(test, testMode2);
 
@@ -56,8 +56,8 @@ public class RootTestsXmlMarshallerImplTest {
     @org.junit.Test
     public void testConvertXMLToModel_emptyStages() throws Exception {
         // initialize variable inputs
-        Test test = new Test("Test Login", 0, 0, Collections.<Stage>emptyList());
-        Test testMode2 = new Test("Test Order", 0, 0, null);
+        Test test = new Test("Test Login", 0, 0, false, Collections.<Stage>emptyList());
+        Test testMode2 = new Test("Test Order", 0, 0, false, null);
         List<Test> tests = Arrays.asList(test, testMode2);
 
         TestPlan expectedTestPlan = new TestPlan(tests);
