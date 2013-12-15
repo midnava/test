@@ -1,6 +1,8 @@
 package com.ubs.fixserver.tool.client;
 
 
+import com.ubs.fixserver.tool.model.FixClientMessage;
+
 import java.util.List;
 import java.util.Map;
 
@@ -10,10 +12,10 @@ public interface FixGateWayClient {
 
     void stopClient();
 
-    boolean sendMessage(Map<String, String> tag);
+    boolean sendMessage(FixClientMessage message);
 
     Map<String, String> receiveMessage(long timeout);
 
-    List<Map<String, String>> receiveAllMessages();
+    List<FixClientMessage> receiveAllMessages();
 
 }
