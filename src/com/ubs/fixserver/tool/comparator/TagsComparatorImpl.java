@@ -15,16 +15,16 @@ public class TagsComparatorImpl implements TagComparator {
 
     @Override
     public boolean equalsTags(Map<String, String> tags1, Map<String, String> tags2) {
+        boolean result = false;
         if (tags1 != null && tags2 != null && tags1.size() == tags2.size()) {
             for (String key : tags1.keySet()) {
-                boolean result = compareTagValues(tags1.get(key), tags2.get(key));
+                result = compareTagValues(tags1.get(key), tags2.get(key));
                 if (!result) {
                     return false;
                 }
             }
-            return true;
         }
-        return false;
+        return result;
     }
 
     @VisibilityChangedForTestingUseOnly
