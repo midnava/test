@@ -1,5 +1,7 @@
 package com.ubs.fixserver.tool.convertor;
 
+import com.ubs.fixserver.tool.annotations.VisibilityChangedForTestingOnly;
+
 import java.util.*;
 import java.util.regex.Pattern;
 
@@ -23,6 +25,7 @@ public class FixProtocolConverterImpl implements FixProtocolConverter {
         return result;
     }
 
+    @VisibilityChangedForTestingOnly
     Map<String, String> createTags(List<String> pairTags) {
         Map<String, String> result = new LinkedHashMap<String, String>();
         for (String str : pairTags) {
@@ -32,6 +35,7 @@ public class FixProtocolConverterImpl implements FixProtocolConverter {
         return result;
     }
 
+    @VisibilityChangedForTestingOnly
     String[] splitTag(String str) {
         checkTag(str);
         int position = str.indexOf(VALUE_SPLITTER);
@@ -41,6 +45,7 @@ public class FixProtocolConverterImpl implements FixProtocolConverter {
         return result;
     }
 
+    @VisibilityChangedForTestingOnly
     void checkTag(String tags) {
         if (!tagPattern.matcher(tags).matches()) {
             throw new IllegalArgumentException(String.format("Failed to split str [%s] with pattern %s", tags, tagPattern.pattern()));

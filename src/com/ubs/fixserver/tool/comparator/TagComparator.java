@@ -8,6 +8,6 @@ import java.util.Map;
  */
 public interface TagComparator {
 
-    boolean compareTags(Map<String, String> tags1, Map<String, String> tags2);
+    boolean equalsTags(Map<String, String> tags1, Map<String, String> tags2);
 
 }
