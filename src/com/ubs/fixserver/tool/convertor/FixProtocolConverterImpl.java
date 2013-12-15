@@ -30,7 +30,7 @@ public class FixProtocolConverterImpl implements FixProtocolConverter {
         Map<String, String> result = new LinkedHashMap<String, String>();
         for (String str : pairTags) {
             String[] pair = splitTag(str);
-            result.put(pair[0].trim(), pair[1].trim());
+            result.put(pair[0], pair[1]);
         }
         return result;
     }
@@ -41,7 +41,7 @@ public class FixProtocolConverterImpl implements FixProtocolConverter {
         int position = str.indexOf(VALUE_SPLITTER);
         String[] result = new String[2];
         result[0] = str.substring(0, position);
-        result[1] = str.substring(position + 1, str.length());
+        result[1] = str.substring(position + 1, str.length()).trim();
         return result;
     }
 

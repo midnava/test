@@ -12,7 +12,6 @@ public class TagsComparatorImpl implements TagComparator {
 
     private static final String ANY_VALUE = "%any%";
 
-
     @Override
     public boolean equalsTags(Map<String, String> tags1, Map<String, String> tags2) {
         boolean result = false;

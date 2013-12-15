@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10f13b84-215f-4b9b-bcdb-594e6b533d5c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/FixProtocolConverterImpl.java" afterPath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/FixProtocolConverterImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/comparator/TagsComparatorImpl.java" afterPath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/comparator/TagsComparatorImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/ubs/fixserver/tool/comparator/TagsComparatorImplTest.java" afterPath="$PROJECT_DIR$/test/com/ubs/fixserver/tool/comparator/TagsComparatorImplTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Base2.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387128895303" ignored="false" />
-    <file path="/fragment.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387125361990" ignored="false" />
+    <file path="/Dummy.txt" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387130463779" ignored="false" />
+    <file path="/fragment.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387130463779" ignored="false" />
     <file path="/NormalizedStringAdapterTest.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387026162506" ignored="false" />
     <file path="/StringToTagsMapConverter.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387026571666" ignored="false" />
-    <file path="/FixProtocolConverterImpl.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387124749162" ignored="false" />
+    <file path="/FixProtocolConverterImpl.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387130353860" ignored="false" />
     <file path="/FixProtocolConverterImplTest.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387048675437" ignored="false" />
     <file path="/TagsComparator.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387110544014" ignored="false" />
     <file path="/TagComparator.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387110858752" ignored="false" />
@@ -27,6 +27,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/FixServiceTestTool$com_ubs_fixserver_tool_in_FixServerTestTool.coverage" NAME="com.ubs.fixserver.tool in FixServerTestTool Coverage Results" MODIFIED="1387130480977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/FixServiceTestTool$RootTestsXmlMarshallerImplTest_testConvertXMLToModel.coverage" NAME="RootTestsXmlMarshallerImplTest.testConvertXMLToModel Coverage Results" MODIFIED="1387015263198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.ubs.fixservice.tool.xml.marshaller.*</FILTER>
     </SUITE>
@@ -87,20 +88,20 @@
       <file leaf-file-name="TagsComparatorImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/comparator/TagsComparatorImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="22" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
+            <state line="22" column="36" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TagsComparatorImplTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TagsComparatorImplTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/ubs/fixserver/tool/comparator/TagsComparatorImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="39" selection-start="413" selection-end="413" vertical-scroll-proportion="-1.4031414">
+            <state line="30" column="34" selection-start="909" selection-end="909" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#557#573#0" expanded="true" />
-                <element signature="e#742#758#0" expanded="true" />
-                <element signature="e#927#943#0" expanded="true" />
+                <element signature="e#480#496#0" expanded="true" />
+                <element signature="e#665#681#0" expanded="true" />
+                <element signature="e#850#866#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,6 +111,15 @@
         <entry file="file://$PROJECT_DIR$/test/com/ubs/fixserver/tool/convertor/FixProtocolConverterImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="31" column="50" selection-start="468" selection-end="947" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FixProtocolConverterImpl.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/FixProtocolConverterImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="68" selection-start="1512" selection-end="1512" vertical-scroll-proportion="1.7801048">
               <folding />
             </state>
           </provider>
@@ -143,13 +153,13 @@
         <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/model/TestResult.java" />
         <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/anatations/dd.java" />
         <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/anatations/VisibilityChangedForTestingPurposesOnly.java" />
-        <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/FixProtocolConverterImpl.java" />
         <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/anatations/VisibilityChangedForTestingOnly.java" />
         <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/annatations/VisibilityChangedForTestingOnly.java" />
         <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/annotations/VisibilityChangedForTestingOnly.java" />
         <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/annotations/VisibilityChangedForTestingUseOnly.java" />
-        <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/comparator/TagsComparatorImpl.java" />
         <option value="$PROJECT_DIR$/test/com/ubs/fixserver/tool/comparator/TagsComparatorImplTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/comparator/TagsComparatorImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/FixProtocolConverterImpl.java" />
       </list>
     </option>
   </component>
@@ -410,142 +420,7 @@
       <recent name="D:\LUX_PROJECT\test\test\com\ubs\fixservice\tool\xml\marshaller" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in FixServerTestTool">
-    <configuration default="false" name="FixProtocolConverterImplTest.tesCheckTag" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ubs.fixserver.tool.convertor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="FixServerTestTool" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ubs.fixserver.tool.convertor" />
-      <option name="MAIN_CLASS_NAME" value="com.ubs.fixserver.tool.convertor.FixProtocolConverterImplTest" />
-      <option name="METHOD_NAME" value="tesCheckTag" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="FixProtocolConverterImplTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ubs.fixserver.tool.convertor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="FixServerTestTool" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ubs.fixserver.tool.convertor" />
-      <option name="MAIN_CLASS_NAME" value="com.ubs.fixserver.tool.convertor.FixProtocolConverterImplTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TagsComparatorImplTest.testCompareTags" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ubs.fixserver.tool.comparator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="FixServerTestTool" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ubs.fixserver.tool.comparator" />
-      <option name="MAIN_CLASS_NAME" value="com.ubs.fixserver.tool.comparator.TagsComparatorImplTest" />
-      <option name="METHOD_NAME" value="testCompareTags" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TagsComparatorImplTest.testEqualsTags" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ubs.fixserver.tool.comparator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="FixServerTestTool" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ubs.fixserver.tool.comparator" />
-      <option name="MAIN_CLASS_NAME" value="com.ubs.fixserver.tool.comparator.TagsComparatorImplTest" />
-      <option name="METHOD_NAME" value="testEqualsTags" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="All in FixServerTestTool" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="FixServerTestTool" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.com.ubs.fixserver.tool in FixServerTestTool">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -744,22 +619,34 @@
       <option name="usbDebugPort" value="7936" />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.FixProtocolConverterImplTest.tesCheckTag" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FixProtocolConverterImplTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TagsComparatorImplTest.testCompareTags" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TagsComparatorImplTest.testEqualsTags" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.All in FixServerTestTool" />
+    <configuration default="false" name="com.ubs.fixserver.tool in FixServerTestTool" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" track_test_folders="true" runner="idea" />
+      <module name="FixServerTestTool" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="com.ubs.fixserver.tool" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Cover" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.com.ubs.fixserver.tool in FixServerTestTool" />
     </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.All in FixServerTestTool" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TagsComparatorImplTest.testEqualsTags" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TagsComparatorImplTest.testCompareTags" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FixProtocolConverterImplTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FixProtocolConverterImplTest.tesCheckTag" />
-      </list>
-    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -874,7 +761,11 @@
       <created>1387128898209</created>
       <updated>1387128898209</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="modify">
+      <created>1387129935425</created>
+      <updated>1387129935425</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -882,7 +773,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.52605045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -897,6 +788,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32605043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -905,7 +797,6 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21969697" sideWeight="0.6857143" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31428573" sideWeight="0.7340909" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1048,13 +939,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/FixProtocolConverterImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="44" selection-start="1541" selection-end="1541" vertical-scroll-proportion="0.4938704">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/annotations/VisibilityChangedForTestingUseOnly.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="48" selection-start="231" selection-end="231" vertical-scroll-proportion="0.17926186">
@@ -1069,21 +953,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/ubs/fixserver/tool/comparator/TagsComparatorImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="34" selection-start="909" selection-end="909" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#480#496#0" expanded="true" />
+            <element signature="e#665#681#0" expanded="true" />
+            <element signature="e#850#866#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/comparator/TagsComparatorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="22" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
+        <state line="22" column="36" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/ubs/fixserver/tool/comparator/TagsComparatorImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/FixProtocolConverterImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="39" selection-start="413" selection-end="413" vertical-scroll-proportion="-1.4031414">
-          <folding>
-            <element signature="e#557#573#0" expanded="true" />
-            <element signature="e#742#758#0" expanded="true" />
-            <element signature="e#927#943#0" expanded="true" />
-          </folding>
+        <state line="43" column="68" selection-start="1512" selection-end="1512" vertical-scroll-proportion="1.7801048">
+          <folding />
         </state>
       </provider>
     </entry>
