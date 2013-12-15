@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10f13b84-215f-4b9b-bcdb-594e6b533d5c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/complementer/DefaultValueTestTestComplementer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/complementer/LoginLogoutTestComplementer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/complementer/TestComplementer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/ubs/fixserver/tool/xml/marshaller/RootTestsXmlMarshallerImplTest.java" afterPath="$PROJECT_DIR$/test/com/ubs/fixserver/tool/xml/marshaller/RootTestsXmlMarshallerImplTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/model/Stage.java" afterPath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/model/Stage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/model/Test.java" afterPath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/model/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/ubs/fixserver/tool/xml/marshaller/testExample.xml" afterPath="$PROJECT_DIR$/test/com/ubs/fixserver/tool/xml/marshaller/testExample.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Base2.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387136345304" ignored="false" />
+    <file path="/Dummy.txt" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387137536515" ignored="false" />
     <file path="/fragment.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387137069523" ignored="false" />
     <file path="/NormalizedStringAdapterTest.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387026162506" ignored="false" />
     <file path="/StringToTagsMapConverter.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387026571666" ignored="false" />
@@ -104,7 +97,7 @@
       <file leaf-file-name="RootTestsXmlMarshallerImplTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/ubs/fixserver/tool/xml/marshaller/RootTestsXmlMarshallerImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="65" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.42146596">
+            <state line="37" column="42" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.55497384">
               <folding />
             </state>
           </provider>
@@ -884,7 +877,11 @@
       <created>1387133054974</created>
       <updated>1387133054974</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="modify">
+      <created>1387137539314</created>
+      <updated>1387137539314</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -913,7 +910,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21969697" sideWeight="0.6857143" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31428573" sideWeight="0.7340909" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31428573" sideWeight="0.7340909" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -1110,7 +1107,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/ubs/fixserver/tool/xml/marshaller/RootTestsXmlMarshallerImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="65" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.42146596">
+        <state line="37" column="42" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.55497384">
           <folding />
         </state>
       </provider>
