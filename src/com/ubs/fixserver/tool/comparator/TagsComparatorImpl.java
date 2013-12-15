@@ -1,7 +1,7 @@
 package com.ubs.fixserver.tool.comparator;
 
 
-import com.ubs.fixserver.tool.annotations.VisibilityChangedForTestingOnly;
+import com.ubs.fixserver.tool.annotations.VisibilityChangedForTestingUseOnly;
 
 import java.util.Map;
 
@@ -27,7 +27,7 @@ public class TagsComparatorImpl implements TagComparator {
         return false;
     }
 
-    @VisibilityChangedForTestingOnly
+    @VisibilityChangedForTestingUseOnly
     boolean compareTagValues(String value1, String value2) {
         if (ANY_VALUE.equals(value1) || ANY_VALUE.equals(value2)) {
             return true;
