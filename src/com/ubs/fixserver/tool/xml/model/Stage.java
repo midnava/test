@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * @author : Novobranchenko Oleksandr
  */
-public class Stage {
+public final class Stage {
     @XmlAttribute(name = "name", required = true)
     private String name;
 

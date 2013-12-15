@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * @author : Novobranchenko Oleksandr
  */
-public class Test {
+public final class Test {
 
     @XmlAttribute(name = "name", required = true)
     private String name;

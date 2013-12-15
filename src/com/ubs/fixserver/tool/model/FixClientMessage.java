@@ -1,11 +1,14 @@
 package com.ubs.fixserver.tool.model;
 
+import java.util.Collections;
 import java.util.Map;
 
 /**
+ * Method getMessages is never returned null, return empty or values
+ *
  * @author : Novobranchenko Oleksandr
  */
-public class FixClientMessage {
+public final class FixClientMessage {
 
     private final Map<String, String> messages;
 
@@ -13,8 +16,11 @@ public class FixClientMessage {
         this.messages = messages;
     }
 
+    /**
+     * Method getMessages is never returned null, return empty or values
+     */
     public Map<String, String> getMessages() {
-        return messages;
+        return messages == null ? Collections.<String, String>emptyMap() : Collections.unmodifiableMap(messages);
     }
 
     @Override

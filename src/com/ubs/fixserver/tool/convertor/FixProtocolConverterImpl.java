@@ -10,8 +10,8 @@ import java.util.regex.Pattern;
  */
 public class FixProtocolConverterImpl implements FixProtocolConverter {
 
-    private static final String TAG_SPLITTER = ";";
-    private static final String VALUE_SPLITTER = "=";
+    private static final String TAGS_SPLITTER = ";";
+    private static final String PAIR_TAG_SPLITTER = "=";
     private Pattern tagPattern = Pattern.compile("((\\d*)=(\\S*))");
 
     @Override
@@ -19,7 +19,7 @@ public class FixProtocolConverterImpl implements FixProtocolConverter {
         Map<String, String> result = new LinkedHashMap<String, String>();
         if (value != null) {
             List<String> pairTags = new ArrayList<String>();
-            Collections.addAll(pairTags, value.split(TAG_SPLITTER));
+            Collections.addAll(pairTags, value.split(TAGS_SPLITTER));
             result = createTags(pairTags);
         }
         return result;
@@ -28,27 +28,27 @@ public class FixProtocolConverterImpl implements FixProtocolConverter {
     @VisibilityChangedForTestingUseOnly
     Map<String, String> createTags(List<String> pairTags) {
         Map<String, String> result = new LinkedHashMap<String, String>();
-        for (String str : pairTags) {
-            String[] pair = splitTag(str);
-            result.put(pair[0], pair[1]);
+        for (String pairTag : pairTags) {
+            String[] splitPairTag = splitPairTag(pairTag);
+            result.put(splitPairTag[0], splitPairTag[1]);
         }
         return result;
     }
 
     @VisibilityChangedForTestingUseOnly
-    String[] splitTag(String str) {
-        checkTag(str);
-        int position = str.indexOf(VALUE_SPLITTER);
+    String[] splitPairTag(String pairTag) {
+        checkTag(pairTag);
+        int position = pairTag.indexOf(PAIR_TAG_SPLITTER);
         String[] result = new String[2];
-        result[0] = str.substring(0, position);
-        result[1] = str.substring(position + 1, str.length()).trim();
+        result[0] = pairTag.substring(0, position);
+        result[1] = pairTag.substring(position + 1, pairTag.length()).trim();
         return result;
     }
 
     @VisibilityChangedForTestingUseOnly
-    void checkTag(String tags) {
-        if (!tagPattern.matcher(tags).matches()) {
-            throw new IllegalArgumentException(String.format("Failed to split str [%s] with pattern %s", tags, tagPattern.pattern()));
+    void checkTag(String pairTag) {
+        if (!tagPattern.matcher(pairTag).matches()) {
+            throw new IllegalArgumentException(String.format("Failed to split str [%s] with pattern %s", pairTag, tagPattern.pattern()));
         }
     }
 

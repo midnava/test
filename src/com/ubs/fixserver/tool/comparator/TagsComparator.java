@@ -1,13 +1,13 @@
 package com.ubs.fixserver.tool.comparator;
 
 
-import java.util.Map;
+import com.ubs.fixserver.tool.model.FixClientMessage;
 
 /**
  * @author : Novobranchenko Oleksandr
  */
 public interface TagsComparator {
 
-    boolean equalsTags(Map<String, String> tags1, Map<String, String> tags2);
+    boolean equalsTags(FixClientMessage fixClientMessage1, FixClientMessage fixClientMessage2);
 
 }

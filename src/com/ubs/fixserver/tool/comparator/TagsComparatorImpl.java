@@ -2,6 +2,7 @@ package com.ubs.fixserver.tool.comparator;
 
 
 import com.ubs.fixserver.tool.annotations.VisibilityChangedForTestingUseOnly;
+import com.ubs.fixserver.tool.model.FixClientMessage;
 
 import java.util.Map;
 
@@ -13,17 +14,21 @@ public class TagsComparatorImpl implements TagsComparator {
     private static final String ANY_VALUE = "%any%";
 
     @Override
-    public boolean equalsTags(Map<String, String> tags1, Map<String, String> tags2) {
-        boolean result = false;
-        if (tags1 != null && tags2 != null && tags1.size() == tags2.size()) {
-            for (String key : tags1.keySet()) {
-                result = compareTagValues(tags1.get(key), tags2.get(key));
-                if (!result) {
+    public boolean equalsTags(FixClientMessage fixClientMessage1, FixClientMessage fixClientMessage2) {
+
+        if (fixClientMessage1 != null && fixClientMessage2 != null
+                && fixClientMessage1.getMessages().size() == fixClientMessage2.getMessages().size()) {
+
+            Map<String, String> messages1 = fixClientMessage1.getMessages();
+            Map<String, String> messages2 = fixClientMessage2.getMessages();
+            for (String key : messages1.keySet()) {
+                if (!compareTagValues(messages1.get(key), messages2.get(key))) {
                     return false;
                 }
             }
+            return true;
         }
-        return result;
+        return false;
     }
 
     @VisibilityChangedForTestingUseOnly

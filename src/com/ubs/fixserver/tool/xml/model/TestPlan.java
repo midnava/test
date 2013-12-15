@@ -10,7 +10,7 @@ import java.util.List;
  * @author : Novobranchenko Oleksandr
  */
 @XmlRootElement(name = "TESTS")
-public class TestPlan {
+public final class TestPlan {
 
     @XmlElement(name = "TEST", required = false)
     private List<Test> tests;

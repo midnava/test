@@ -2,26 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10f13b84-215f-4b9b-bcdb-594e6b533d5c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/model/FixClientMessage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/client/FixGateWayClient.java" afterPath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/client/FixGateWayClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/model/FixClientMessage.java" afterPath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/model/FixClientMessage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/FixProtocolConverterImpl.java" afterPath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/FixProtocolConverterImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/model/Stage.java" afterPath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/model/Stage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/comparator/TagsComparator.java" afterPath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/comparator/TagsComparator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/comparator/TagsComparatorImpl.java" afterPath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/comparator/TagsComparatorImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/com/ubs/fixserver/tool/comparator/TagsComparatorImplTest.java" afterPath="$PROJECT_DIR$/test/com/ubs/fixserver/tool/comparator/TagsComparatorImplTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/model/Test.java" afterPath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/model/Test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/model/TestPlan.java" afterPath="$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/model/TestPlan.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Base2.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387130815024" ignored="false" />
-    <file path="/fragment.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387130463779" ignored="false" />
+    <file path="/Dummy.txt" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387131016820" ignored="false" />
+    <file path="/fragment.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387132226407" ignored="false" />
     <file path="/NormalizedStringAdapterTest.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387026162506" ignored="false" />
     <file path="/StringToTagsMapConverter.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387026571666" ignored="false" />
-    <file path="/FixProtocolConverterImpl.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387130353860" ignored="false" />
+    <file path="/FixProtocolConverterImpl.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387133038040" ignored="false" />
     <file path="/FixProtocolConverterImplTest.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387048675437" ignored="false" />
-    <file path="/TagsComparator.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387110544014" ignored="false" />
+    <file path="/TagsComparator.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387131047120" ignored="false" />
     <file path="/TagComparator.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387110858752" ignored="false" />
-    <file path="/TagsComparatorImpl.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387129459935" ignored="false" />
+    <file path="/TagsComparatorImpl.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387132632492" ignored="false" />
     <file path="/VisibilityChangedForTestingOnly.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387128888530" ignored="false" />
-    <file path="/TagsComparatorImplTest.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387129880469" ignored="false" />
+    <file path="/TagsComparatorImplTest.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387131867131" ignored="false" />
     <file path="/FixGateWayClient.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387131005323" ignored="false" />
-    <file path="/Tag.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387130959598" ignored="false" />
-    <file path="/FixClientMessage.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387130956070" ignored="false" />
+    <file path="/Tag.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387131196099" ignored="false" />
+    <file path="/FixClientMessage.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387131682915" ignored="false" />
+    <file path="/Stage.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387131528065" ignored="false" />
+    <file path="/Test.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387131543240" ignored="false" />
+    <file path="/TestPlan.java" changelist="10f13b84-215f-4b9b-bcdb-594e6b533d5c" time="1387131557702" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,13 +97,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FixGateWayClient.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TagsComparatorImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/comparator/TagsComparatorImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="10" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TagsComparatorImplTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/ubs/fixserver/tool/comparator/TagsComparatorImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="62" column="33" selection-start="2427" selection-end="2427" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#534#550#0" expanded="true" />
+                <element signature="e#719#735#0" expanded="true" />
+                <element signature="e#904#920#0" expanded="true" />
+                <element signature="e#1020#1036#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TagsComparator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/comparator/TagsComparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="28" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FixGateWayClient.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/client/FixGateWayClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="25" selection-start="360" selection-end="360" vertical-scroll-proportion="0.5377856">
+            <state line="18" column="36" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FixProtocolConverterImpl.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/FixProtocolConverterImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="34" selection-start="328" selection-end="328" vertical-scroll-proportion="-1.0680628">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -118,22 +168,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/comporator/TagsComparatorImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/comporator/TagComparator.java" />
-        <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/comparator/TagComparator.java" />
-        <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/model/TestResult.java" />
         <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/anatations/dd.java" />
         <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/anatations/VisibilityChangedForTestingPurposesOnly.java" />
         <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/anatations/VisibilityChangedForTestingOnly.java" />
         <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/annatations/VisibilityChangedForTestingOnly.java" />
         <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/annotations/VisibilityChangedForTestingOnly.java" />
         <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/annotations/VisibilityChangedForTestingUseOnly.java" />
-        <option value="$PROJECT_DIR$/test/com/ubs/fixserver/tool/comparator/TagsComparatorImplTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/FixProtocolConverterImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/comparator/TagsComparatorImpl.java" />
         <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/model/Tag.java" />
-        <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/model/FixClientMessage.java" />
         <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/client/FixGateWayClient.java" />
+        <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/model/Stage.java" />
+        <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/model/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/model/TestPlan.java" />
+        <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/model/FixClientMessage.java" />
+        <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/comparator/TagsComparatorImpl.java" />
+        <option value="$PROJECT_DIR$/test/com/ubs/fixserver/tool/comparator/TagsComparatorImplTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/comparator/TagsComparator.java" />
+        <option value="$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/FixProtocolConverterImpl.java" />
       </list>
     </option>
   </component>
@@ -286,6 +336,84 @@
               <option name="myItemId" value="tool" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FixServiceTestTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="marshaller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FixServiceTestTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adapter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FixServiceTestTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -306,6 +434,50 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FixServiceTestTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="convertor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FixServiceTestTool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tool" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="comparator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -613,8 +785,14 @@
       <envs />
       <patterns />
       <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Cover" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -751,7 +929,11 @@
       <created>1387130817720</created>
       <updated>1387130817720</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="modify">
+      <created>1387131019415</created>
+      <updated>1387131019415</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -766,7 +948,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39817974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39663866" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928178" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -781,7 +963,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21969697" sideWeight="0.6857143" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31428573" sideWeight="0.7340909" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31428573" sideWeight="0.7340909" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -866,92 +1048,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/model/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="44" selection-start="1098" selection-end="1127" vertical-scroll-proportion="-0.95811516" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/model/Stage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="25" selection-start="1597" selection-end="1597" vertical-scroll-proportion="2.3350785" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/model/TestPlan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="13" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.6.0_29/src.zip!/java/lang/Comparable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="27" selection-start="3687" selection-end="3697" vertical-scroll-proportion="0.13090909" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/FixProtocolConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="66" selection-end="111" vertical-scroll-proportion="0.11950791">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/adapter/NormalizedStringAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/marshaller/RootTestsXmlMarshallerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="3" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/comparator/TagsComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="3" selection-start="113" selection-end="113" vertical-scroll-proportion="0.2084063">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/annotations/VisibilityChangedForTestingUseOnly.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="48" selection-start="231" selection-end="231" vertical-scroll-proportion="0.17926186">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/FixProtocolConverterImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="68" selection-start="1512" selection-end="1512" vertical-scroll-proportion="0.6115993">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/ubs/fixserver/tool/convertor/FixProtocolConverterImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="50" selection-start="468" selection-end="947" vertical-scroll-proportion="0.5377856">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/ubs/fixserver/tool/comparator/TagsComparatorImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="34" selection-start="909" selection-end="909" vertical-scroll-proportion="0.68717045">
-          <folding>
-            <element signature="e#480#496#0" expanded="true" />
-            <element signature="e#665#681#0" expanded="true" />
-            <element signature="e#850#866#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/model/FixClientMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="29" selection-start="121" selection-end="137" vertical-scroll-proportion="0.20913884">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/comparator/TagsComparatorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="15" selection-start="656" selection-end="656" vertical-scroll-proportion="0.5377856">
           <folding />
         </state>
       </provider>
@@ -963,12 +1062,111 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/FixProtocolConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="66" selection-end="111" vertical-scroll-proportion="0.11950791">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.6.0_29/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1147" column="17" selection-start="47585" selection-end="47589" vertical-scroll-proportion="0.39191565">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/model/FixClientMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="3" selection-start="167" selection-end="167" vertical-scroll-proportion="0.17926186">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#581#597#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/adapter/NormalizedStringAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="3" selection-start="145" selection-end="145" vertical-scroll-proportion="0.17926186">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/marshaller/RootTestsXmlMarshallerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="15" selection-start="530" selection-end="530" vertical-scroll-proportion="0.35852373">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/model/TestPlan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="12" selection-start="282" selection-end="282" vertical-scroll-proportion="0.2688928">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/model/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="33" selection-start="279" selection-end="279" vertical-scroll-proportion="0.17926186">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/xml/model/Stage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="431" selection-end="431" vertical-scroll-proportion="0.23901582">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.7.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="-6.8">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/ubs/fixserver/tool/comparator/TagsComparatorImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="33" selection-start="2427" selection-end="2427" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#534#550#0" expanded="true" />
+            <element signature="e#719#735#0" expanded="true" />
+            <element signature="e#904#920#0" expanded="true" />
+            <element signature="e#1020#1036#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/comparator/TagsComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="28" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/client/FixGateWayClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="25" selection-start="360" selection-end="360" vertical-scroll-proportion="0.5377856">
+        <state line="18" column="36" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/comparator/TagsComparatorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="10" selection-start="739" selection-end="739" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ubs/fixserver/tool/convertor/FixProtocolConverterImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="34" selection-start="328" selection-end="328" vertical-scroll-proportion="-1.0680628">
+          <folding />
         </state>
       </provider>
     </entry>
